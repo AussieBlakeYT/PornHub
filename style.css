@@ -1,0 +1,28 @@
+body {
+    background-color: #181818;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.video-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video-grid a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.video-grid img {
+    width: 320px;
+    border-radius: 10px;
+}
+
+.video-container {
+    margin-top: 20px;
+}
